@@ -1,4 +1,4 @@
-class StudentController < ApplicationController
+class StudentsController < ApplicationController
   get '/students' do
     @array = Student.all
     erb :index
