@@ -3,8 +3,4 @@ class StudentController < ApplicationController
     @array = Student.all
     erb :index
   end
-
-  post '/students' do
-    @array = Student.all
-  end
 end
